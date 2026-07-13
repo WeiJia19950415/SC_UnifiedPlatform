@@ -1,0 +1,13 @@
+<Solution>
+    <Folder Name="/src/">
+        <Project Path="src/SC_UnifiedPlatform.Domain/SC_UnifiedPlatform.Domain.csproj" />
+        <Project Path="src/SC_UnifiedPlatform.Application/SC_UnifiedPlatform.Application.csproj" />
+        <Project Path="src/SC_UnifiedPlatform.EntityFrameworkCore/SC_UnifiedPlatform.EntityFrameworkCore.csproj" />
+        <Project Path="src/SC_UnifiedPlatform.Domain.Shared/SC_UnifiedPlatform.Domain.Shared.csproj" />
+        <Project Path="src/SC_UnifiedPlatform.Application.Contracts/SC_UnifiedPlatform.Application.Contracts.csproj" />
+        <Project Path="src/SC_UnifiedPlatform.HttpApi/SC_UnifiedPlatform.HttpApi.csproj" />
+        <Project Path="src/SC_UnifiedPlatform.HttpApi.Client/SC_UnifiedPlatform.HttpApi.Client.csproj" />
+        <Project Path="src/SC_UnifiedPlatform.HttpApi.Host/SC_UnifiedPlatform.HttpApi.Host.csproj" />
+        <Project Path="src/SC_UnifiedPlatform.DbMigrator/SC_UnifiedPlatform.DbMigrator.csproj" />
+    </Folder>
+</Solution>

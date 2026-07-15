@@ -43,6 +43,7 @@ public static class HealthChecksBuilderExtensions
 
     private static IServiceCollection ConfigureHealthCheckEndpoint(this IServiceCollection services, string path)
     {
+
         services.Configure<AbpEndpointRouterOptions>(options =>
         {
             options.EndpointConfigureActions.Add(endpointContext =>

@@ -12,7 +12,13 @@ public static class SC_UnifiedPlatformPermissions
         public const string Edit = Default + ".Edit";
         public const string Delete = Default + ".Delete";
     }
-    
-    //Add your own permission names. Example:
-    //public const string MyPermission1 = GroupName + ".MyPermission1";
+
+    // 新增 Auth 权限组定义
+    public static class Auth
+    {
+        public const string Default = GroupName + ".Auth";
+        public const string Login = Default + ".Login";
+    }
+
+
 }

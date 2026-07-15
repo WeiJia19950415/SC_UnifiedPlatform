@@ -37,6 +37,8 @@
     "Unspecified": "System",
     "SeeAllUsers": "查看所有用户",
     "TakePhoto": "拍摄照片",
-    "ChoosePhoto": "选择照片"
+    "ChoosePhoto": "选择照片",
+    "Permission:Auth": "登录管理",
+    "Permission:Auth.Login": "登录权限"
   }
 }

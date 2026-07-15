@@ -17,6 +17,10 @@ public class SC_UnifiedPlatformPermissionDefinitionProvider : PermissionDefiniti
         booksPermission.AddChild(SC_UnifiedPlatformPermissions.Books.Delete, L("Permission:Books.Delete"));
         //Define your own permissions here. Example:
         //myGroup.AddPermission(SC_UnifiedPlatformPermissions.MyPermission1, L("Permission:MyPermission1"));
+
+        // 注册认证与登录权限
+        var authPermission = myGroup.AddPermission(SC_UnifiedPlatformPermissions.Auth.Default, L("Permission:Auth"));
+        authPermission.AddChild(SC_UnifiedPlatformPermissions.Auth.Login, L("Permission:Auth.Login"));
     }
 
     private static LocalizableString L(string name)
